@@ -1036,9 +1036,10 @@
                         </div>
                         <div class="video-wrapper-9-16">
                              <video controls playsinline class="vertical-video-player" poster="Mendel.jpg">
-    <source src="video/Introducción.mp4" type="video/mp4">
-    Tu navegador no soporta la reproducción de video HTML5.
-</video>
+                                <source src="video/Introduccion.mp4" type="video/mp4">
+                                <source src="video/Introducción.mp4" type="video/mp4">
+                                Tu navegador no soporta la reproducción de video HTML5.
+                            </video>
                         </div>
                         <p class="video-card-caption">
                             Contexto histórico y la trascendencia del método experimental de Mendel.
@@ -1413,9 +1414,10 @@
                         </div>
                         <div class="video-wrapper-9-16">
                           <video controls playsinline class="vertical-video-player">
-    <source src="video/La_Primera_Llave__Ley_de_la_Uniformidad.mp4" type="video/mp4">
-    Tu navegador no soporta la reproducción de video HTML5.
-</video>
+                                <source src="video/La_Primera_Llave__Ley_de_la_Uniformidad.mp4" type="video/mp4">
+                                <source src="video/La%20Primera%20Llave%20%20Ley%20de%20la%20Uniformidad.mp4" type="video/mp4">
+                                Tu navegador no soporta la reproducción de video HTML5.
+                            </video>
                         </div>
                         <p class="video-card-caption">
                             Visualización dinámica de la 1ª Ley y la formación de descendientes híbridos uniformes.
@@ -1531,9 +1533,11 @@
                         </div>
                         <div class="video-wrapper-9-16">
                             <video controls playsinline class="vertical-video-player">
-    <source src="video/La_Segunda_Llave__Ley_de_la_Segregación.mp4" type="video/mp4">
-    Tu navegador no soporta la reproducción de video HTML5.
-</video>
+                                <source src="video/La_Segunda_Llave__Ley_de_la_Segregacion.mp4" type="video/mp4">
+                                <source src="video/La_Segunda_Llave__Ley_de_la_Segregación.mp4" type="video/mp4">
+                                <source src="video/La%20Segunda%20Llave%20%20Ley%20de%20la%20Segregaci%C3%B3n.mp4" type="video/mp4">
+                                Tu navegador no soporta la reproducción de video HTML5.
+                            </video>
                         </div>
                         <p class="video-card-caption">
                             Demostración de la segregación alélica y la reaparición del rasgo recesivo en proporción 3:1.
@@ -1712,9 +1716,11 @@
                         </div>
                         <div class="video-wrapper-9-16">
                           <video controls playsinline class="vertical-video-player">
-    <source src="video/La_Tercera_Llave__Ley_de_la_Transmisión_Independiente.mp4" type="video/mp4">
-    Tu navegador no soporta la reproducción de video HTML5.
-</video>
+                                <source src="video/La_Tercera_Llave__Ley_de_la_Transmision_Independiente.mp4" type="video/mp4">
+                                <source src="video/La_Tercera_Llave__Ley_de_la_Transmisión_Independiente.mp4" type="video/mp4">
+                                <source src="video/La%20Tercera%20Llave%20%20Ley%20de%20la%20Transmisi%C3%B3n%20Independiente.mp4" type="video/mp4">
+                                Tu navegador no soporta la reproducción de video HTML5.
+                            </video>
                         </div>
                         <p class="video-card-caption">
                             Análisis meiótico de la segregación independiente de 2 caracteres en proporciones 9:3:3:1.
@@ -1825,7 +1831,7 @@
                             <input type="radio" name="q4" value="B"> B) El genotipo es la dotación de alelos en el ADN y el fenotipo es la expresión física observable
                         </label>
                         <label class="quiz-option-label">
-                            <input type="radio" name="q4" value="C"> C) Ambos términos son sinónimos estrictos en genética mendeliana
+                            <input type="radio" name="q4" value="C"> C) Ambos términos son sinónimos strictly en genética mendeliana
                         </label>
                         <label class="quiz-option-label">
                             <input type="radio" name="q4" value="D"> D) El genotipo se transmite por meiosis y el fenotipo por mitosis
@@ -2198,7 +2204,7 @@
                 let current = '';
                 sections.forEach(section => {
                     const sectionTop = section.offsetTop - 120;
-                    if (window.pageYOffset >= sectionTop) {
+                    if (window.scrollY >= sectionTop) {
                         current = section.getAttribute('id');
                     }
                 });
